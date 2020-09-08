@@ -1,0 +1,133 @@
+.header {
+  width: 100%;
+  border-style: solid;
+  border-width: 0px;
+  border-bottom-width: 0.1px;
+  border-bottom-color: #eaedef;
+  padding: 15px;
+}
+
+.title {
+  font-family: "Helvetica Neue";
+}
+
+button {
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.new-form-card {
+  border-radius: 7px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  background: #84c0d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a3d2e0,
+    #84c0d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a3d2e0,
+    #84c0d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor: pointer;
+}
+
+.card-form {
+  border-radius: 7px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: #143742;
+  font-size: 20px;
+  background: #84c0d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fff,
+    #eaedef
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fff,
+    #eaedef
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+.new-form-card:hover {
+  transform: scale(1.02);
+}
+.card-form:hover {
+  transform: scale(1.02);
+}
+
+/* .card-form:hover {
+  transform: scale(1.2);
+} */
+
+.btn-outlined {
+  color: #143742;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.btn-primary {
+  background-color: #84c0d2;
+  border-color: #84c0d2;
+  color: white;
+}
+
+.btn-secondary {
+  border-color: #84c0d2;
+  border-width: 0.1px;
+  color: #84c0d2;
+  background-color: transparent;
+}
+
+.btn-secondary-outlined {
+  color: #84c0d2;
+  background-color: transparent;
+}
+
+.btn-text-question {
+  background-color: #f4ba49;
+  color: white;
+}
+
+.btn-note-question {
+  background-color: #f0a097;
+  color: white;
+}
+
+.btn-danger {
+  border-color: red;
+  border-width: thin;
+  background-color: white;
+  color: red;
+}
+
+.btn-danger-outlined {
+  border-color: red;
+  border-width: 0px;
+  background-color: white;
+  color: red;
+}
+
